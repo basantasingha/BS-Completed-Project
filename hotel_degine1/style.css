@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    height: 65px;
+    color: #fff;
+    background-color:black;
+    opacity:0.8;
+}
+.navbarcontaner{
+    float: right;
+}
+.navbarcontaner a{
+    margin-left:50px;
+    text-decoration:none;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#image1{
+    width: 100%;
+    border-bottom-left-radius:200%;
+}
+.logo{
+    position: absolute;
+    top:400px;
+    left:900px;
+    color: yellow;
+}
+#image2{
+    position:absolute;
+    top:440px;
+    left:0px;
+    z-index:-1;
+    height:450px;
+}
+.card{ 
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 5px blue;
+}
+.cardcontener{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+#image3{
+    width: 230px;
+    height: 250px;
+}
+#orderbtn{
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7f10;
+}
+.aboutcontener{
+    width:800px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px blue;
+    margin-left: 350px;
+    padding: 20px;
+    background-color:rgb(0 150 250);
+}
+#abtp{
+    color:white;
+}
+#abt{
+    color:black;
+}
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+}
