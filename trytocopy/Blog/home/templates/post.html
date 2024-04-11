@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}
+    <title>POST</title>
+{% endblock title %}
+    
+    {% block start %}
+
+<div class="bg-white rounded-lg shadow p-5"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">Featured</strong>
+    <h2 class="mb-3">About</h2>
+    <p class="text-muted">
+
+        A blog is a type of website or online platform where an individual or a group of individuals regularly publish written content, typically in a chronological format. The term "blog" is a shortened form of "weblog." Blogs often serve as personal journals, platforms for expressing opinions or sharing expertise, or tools for marketing and communication.<br>
+
+        <b style="font-size:25px;color:red;">Key features of a blog include:</b><br>
+
+<b>Posts:</b> <br>Blog posts are individual entries or articles published on the blog. They are typically organized in reverse chronological order, with the most recent post appearing at the top.<br>
+
+    <b>Content:</b><br> Blog content can vary widely depending on the purpose and focus of the blog. It may include written articles, photographs, videos, audio recordings, infographics, and other multimedia elements.<br>
+
+        <b>Comments:</b><br>Many blogs allow readers to leave comments on individual posts, fostering interaction and discussion between the blogger and their audience.
+
+<br><b>Archives: </b><br>Blogs often include archives that organize past posts by date, category, or tags, making it easier for readers to navigate and explore older content.
+
+<br><b>RSS Feeds:</b><br> Blogs commonly offer RSS (Really Simple Syndication) feeds, which allow readers to subscribe to updates and receive notifications when new content is published.
+
+Blogs have become an integral part of online culture and communication, serving as platforms for personal expression, information dissemination, and community building. They are used by individuals, businesses, organizations, and media outlets across a wide range of topics and industries.
+        
+    </p><a class="btn btn-link p-0" href="{% url 'posts' %}">Continue reading <i class="fa fa-long-arrow-alt-right"></i></a>
+  </div>
+  {% endblock %}
